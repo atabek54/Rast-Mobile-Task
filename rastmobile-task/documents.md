@@ -2,7 +2,8 @@
 # Projeyi Anlama
 
 Başlamadan önce projeyi iyi analiz edip hızlıca ilerlemek istedim. Benden bir kütüphane kullanarak Angular ile bir `datagridview` oluşturmam bekleniyordu.
-responsive tasarım özellikle vurgulanmıştı ben de `bootstrap` kullanmaya karar verdim. Projede kullancak data modellerini belirlemem gerekiyordu. Temiz kod prensiplerine dikkat ederek bunu da gerçekleştirdim. Ardından projenin still sayfalarını inceledim ve hangi stilleri kullanacağımı belirledim. Projede kullanılacak resim ve ikonları da hazırlayıp diğer aşamalara geçtim.
+responsive tasarım özellikle vurgulanmıştı ben de `bootstrap` kullanmaya karar verdim. Projede kullancak data modellerini belirlemem gerekiyordu. Temiz kod prensiplerine dikkat ederek bunu da gerçekleştirdim. Ardından projenin still sayfalarını inceledim ve hangi stilleri kullanacağımı belirledim. Projede kullanılacak resim ve ikonları da hazırlayıp diğer aşamalara geçtim. DataGrid Kütüphanesinin sınırlarından çıkmamak için figma tasarımıyla çok ufak farklılıklar oluşmuş olabilir.
+Ya kütüphaneden ödün verecektim ya da tasarımdan ben kütüphaneyi kullanmayı seçtim.
 
 ## Component Oluşturma
 -Navbar Component
