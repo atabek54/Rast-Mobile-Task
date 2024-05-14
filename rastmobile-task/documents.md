@@ -7,7 +7,8 @@ responsive tasarım özellikle vurgulanmıştı ben de `bootstrap` kullanmaya ka
 ## Component Oluşturma
 -Navbar Component
 -Gridview Component
--Dialog Component 
+-Dialog Component
+-
 olarak 3 ayrı component oluşturdum
 
 ## Servisleri Oluşturma
