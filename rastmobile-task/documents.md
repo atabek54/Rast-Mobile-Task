@@ -15,7 +15,9 @@ olarak 3 ayrı component oluşturdum
 
 ## Servisleri Oluşturma
 -Person Service
+-
 -LocalStorage Service
+-
 olarak 2 servis oluşturdum ve data modelimi de bu servisin içerisine koydum
 
 
