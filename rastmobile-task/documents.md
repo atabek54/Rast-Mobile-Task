@@ -1,14 +1,18 @@
 
-# RastmobileTask
+# Projeyi Anlama
 
-Bu Proje Angular güncel versiyonu ile geliştirilmiştir.
+Başlamadan önce projeyi iyi analiz edip hızlıca ilerlemek istedim. Benden bir kütüphane kullanarak Angular ile bir `datagridview` oluşturmam bekleniyordu.
+responsive tasarım özellikle vurgulanmıştı ben de `bootstrap` kullanmaya karar verdim. Projede kullancak data modellerini belirlemem gerekiyordu. Temiz kod prensiplerine dikkat ederek bunu da gerçekleştirdim. Ardından projenin still sayfalarını inceledim ve hangi stilleri kullanacağımı belirledim. Projede kullanılacak resim ve ikonları da hazırlayıp diğer aşamalara geçtim
 
-## Paketleri Kurun
+## Component Oluşturma
+-Navbar Component
+-Gridview Component
+-Dialog Component 
+olarak 3 ayrı component oluşturdum
 
-Paketleri kurmak için `npm install` komutunu çalıştırın. 
-
-## Projeyi Çalıştırın
-`ng serve` komutunu kullanarak projeyi başlatın.
-Bağlantıyı takip ederek tarayıcınızda projeyi açın `http://localhost:4200/`. 
+## Servisleri Oluşturma
+-Person Service
+-LocalStorage Service
+olarak 2 servis oluşturdum ve data modelimi de bu servisin içerisine koydum
 
 
