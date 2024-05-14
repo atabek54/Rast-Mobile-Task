@@ -1,0 +1,33 @@
+<div class="content">
+  <!-- Header -->
+  <div class="header">
+    <mat-icon (click)="closeDialog()">close</mat-icon>
+  </div>
+
+  <!-- Input Container - Sosyal Medya Linki -->
+  <div class="input-container">
+    <label class="label" for="socialLink">Sosyal Medya Linki</label>
+    <input class="input" type="text" [(ngModel)]="newPerson.social_media_link">
+  </div>
+
+  <!-- Input Container - Sosyal Medya İsmi -->
+  <div class="input-container">
+    <label class="label" for="socialMedia">Sosyal Medya İsmi</label>
+    <input class="input" type="text" [(ngModel)]="newPerson.social_media_name">
+  </div>
+
+  <!-- Input Container - Açıklama -->
+  <div class="input-container">
+    <label class="label" for="description">Açıklama</label>
+    <input class="input" type="text" [(ngModel)]="newPerson.description">
+  </div>
+
+  <!-- Button Container -->
+  <div class="button-container">
+    <!-- İptali Butonu -->
+    <button (click)="closeDialog()" class="cancel-button">Vazgeç</button>
+
+    <!-- Kaydet Butonu -->
+    <button (click)="saveData()" class="save-button">Kaydet</button>
+  </div>
+</div>

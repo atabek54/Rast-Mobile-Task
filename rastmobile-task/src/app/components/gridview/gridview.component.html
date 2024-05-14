@@ -1,0 +1,73 @@
+<div style="margin-left: 2%; margin-right: 2%; padding: 4%; background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%); border-radius: 20px; height: auto;">
+  <!-- Data Grid -->
+  <dx-data-grid
+  (onEditorPreparing)="onEditorPreparing($event)"
+  id="dataGrid"
+    [dataSource]="persons"
+    [allowColumnResizing]="allowColumnResizing"
+    [columnAutoWidth]="columnAutoWidth"
+    [showRowLines]="showRowLines"
+    [allowColumnReordering]="allowColumnReordering"
+  >
+    <!-- Scroll -->
+    <dxo-scrolling mode="standard"></dxo-scrolling>
+
+    <!-- Paging -->
+    <dxo-paging [enabled]="paging_enabled" [pageSize]="4" [pageIndex]="0"></dxo-paging>
+
+    <!-- Pager -->
+    <dxo-pager
+      [showPageSizeSelector]="showPageSizeSelector"
+      [allowedPageSizes]="allowedPageSizes"
+      [showNavigationButtons]="showNavigationButtons"
+      [showInfo]="showInfo_pager"
+      [displayMode]="displayModes"
+      [infoText]="infoText"
+    ></dxo-pager>
+
+
+
+      <dxi-column caption="Sosyal Medya Linki" dataField="social_media_link"></dxi-column>
+      <dxi-column caption="Sosyal Medya Adı" dataField="social_media_name"></dxi-column>
+      <dxi-column caption="Açıklama" dataField="description"></dxi-column>
+
+    <!-- Additional Settings -->
+    <dxo-column-chooser [enabled]="false">
+      <dxi-column caption="Address">
+        <dxi-column dataField="City"></dxi-column>
+        <dxi-column dataField="Street"></dxi-column>
+        <dxi-column dataField="Apartment"></dxi-column>
+    </dxi-column>
+    </dxo-column-chooser>
+    <dxo-column-fixing [enabled]="false"></dxo-column-fixing>
+    <dxo-filter-row [visible]="false"></dxo-filter-row>
+    <dxo-search-panel [visible]="true"></dxo-search-panel>
+    <dxo-group-panel [visible]="false"></dxo-group-panel>
+
+    <!-- Editing -->
+    <dxo-editing location="before" mode="popup" [allowUpdating]="false" [allowDeleting]="false" [allowAdding]="true" [useIcons]="true">
+    </dxo-editing>
+
+    <!-- Toolbar -->
+    <dxo-toolbar>
+      <dxi-item name="addRowButton" showText="always">
+        <button class="btn addButton" (click)="openDialog()">
+          <img style="color: white;" height="20" width="20" src="../assets/icons/plus.png" alt=""> Yeni Hesap Ekle
+        </button>
+      </dxi-item>
+
+
+
+
+        <dxi-item   id="custom-item" location="before" name="searchPanel">
+        </dxi-item>
+
+
+        <dxi-item location="before"  showText="always">
+          <button class="btn filterButton">
+            <img style="color: white;" height="15" width="15" src="../assets/icons/filter.png" alt="">
+          </button>
+        </dxi-item>
+    </dxo-toolbar>
+  </dx-data-grid>
+</div>

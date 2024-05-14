@@ -1,0 +1,112 @@
+/* Arama ikonu */
+::ng-deep .dx-searchbox .dx-icon-search {
+  background-image: url('http://www.freeiconspng.com/uploads/search-icon-png-2.png') !important;
+}
+
+/* Arama kutusu */
+::ng-deep .dx-searchbox {
+  width: 200px !important;
+  border-radius: 20px !important;
+}
+
+/* Toolbar düğmeleri */
+::ng-deep .dx-datagrid-toolbar-button {
+  color: white !important;
+  background-color: #744BFC !important;
+  border-radius: 20px !important;
+  width: 175px !important;
+}
+
+/* Toolbar düğmeleri hover durumu */
+::ng-deep .dx-datagrid-toolbar-button:hover {
+  background-color: #000000 !important;
+}
+
+/* İkonlar */
+::ng-deep .dx-icon,
+::ng-deep .dx-icon-edit-button-addrow {
+  color: white !important;
+}
+
+/* Hücre içeriği */
+::ng-deep .dx-datagrid-text-content {
+  color: black !important;
+  font-weight: 500 !important;
+  font-family: 'Poppins';
+  text-align: center !important;
+  padding: 3% !important;
+}
+
+/* Hücre kenar çizgileri */
+::ng-deep .dx-column-lines {
+  padding: 3% !important;
+}
+
+/* Hücreler */
+::ng-deep .dx-datagrid-content .dx-datagrid-table .dx-row > td {
+  margin: 33% !important;
+  padding-top: 3% !important;
+  padding-left: 5% !important;
+  margin-left: 50px !important;
+}
+
+/* Tek satırlı arka plan renkleri */
+::ng-deep .dx-datagrid-content .dx-datagrid-table .dx-row:nth-child(3n+1) > td,
+::ng-deep .dx-datagrid-content .dx-datagrid-table .dx-row:nth-child(3n) > td {
+  background-color: white; /* Beyaz */
+}
+
+/* Çift satırlı arka plan renkleri */
+::ng-deep .dx-datagrid-content .dx-datagrid-table .dx-row:nth-child(3n+2) > td {
+  background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%);
+}
+
+/* Sıralama ikonları */
+::ng-deep .dx-sort,
+::ng-deep .dx-sort-up {
+  color: #744BFC !important;
+  font-size: 25px !important;
+}
+
+::ng-deep .dx-sort-down {
+  color: #744bfc8a !important;
+  font-size: 25px !important;
+}
+
+::ng-deep .dx-clear-button-area {
+  background: transparent !important;
+  border-radius: 0px !important;
+
+}
+
+::ng-deep .dx-texteditor-input{
+  border-radius: 0px !important;
+
+}
+/* Kaydet düğmesi */
+#save {
+  background-color: #744BFC !important;
+}
+
+/* Ekleme düğmesi */
+.addButton {
+  background-color: #744BFC;
+  color: white;
+  width: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 25px;
+}
+.filterButton {
+  background-color: white;
+border-radius: 55px;
+
+  color: white;
+  width: 40px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
